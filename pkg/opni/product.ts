@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const NAME = 'Opni';
+export const NAME = 'Logging / Monitoring';
 export function init(plugin: any, store: any) {
   const {
     product,
@@ -38,7 +38,7 @@ export function init(plugin: any, store: any) {
 
   product({
     inStore:             'management',
-    icon:                'icon-file',
+    icon:                'file',
     label:               'Logging / Monitoring',
     removable:           false,
     showClusterSwitcher: false,

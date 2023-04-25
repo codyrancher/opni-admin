@@ -7,12 +7,15 @@
   },
   "dependencies": {
     "@rancher/shell": "^0.3.5",
+    "@types/lodash": "^4.14.194",
     "core-js": "3.21.1",
     "css-loader": "4.3.0",
     "js-yaml": "4.1.0",
+    "lodash": "^4.17.21",
+    "lorem-ipsum": "^2.0.8",
     "marked": "^4.3.0",
-    "vue-fragment": "^1.6.0",
-    "lorem-ipsum": "^2.0.8"
+    "unique-names-generator": "^4.7.1",
+    "vue-fragment": "^1.6.0"
   },
   "resolutions": {
     "**/webpack": "4",

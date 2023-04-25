@@ -17,7 +17,7 @@ export default function(plugin: IPlugin, context: any) {
     plugin.addRoute({
       name:      'ai-chat',
       path:      '/ai-chat',
-      component: Chat
+      component: function(){}
     });
   }
 }
