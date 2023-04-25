@@ -1,4 +1,4 @@
-import Router from 'vue-router';
+// import Router from 'vue-router';
 
 import WorkloadModelConfig from './pages/WorkloadModelConfig';
 import SLO from './pages/SLO';
@@ -212,9 +212,9 @@ export const NAVIGATION = {
   ]
 };
 
-export function createRouter() {
-  return new Router({
-    mode:   'history',
-    routes: createRoutesFromNavigation(NAVIGATION)
-  });
-}
+// export function createRouter() {
+//   return new Router({
+//     mode:   'history',
+//     routes: createRoutesFromNavigation(NAVIGATION)
+//   });
+// }
