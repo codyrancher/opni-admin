@@ -1,7 +1,7 @@
 {
-  "name": "opni-chat",
-  "description": "An AI Chat that helps answer questions about Rancher and Kubernetes",
-  "version": "0.1.1",
+  "name": "opni",
+  "description": "Opni admin panel which aids in the management of relevant resources",
+  "version": "0.1.0",
   "private": false,
   "rancher": true,
   "scripts": {
