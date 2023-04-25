@@ -23,8 +23,6 @@ import Agents from './pages/Agents';
 import Root from './pages/Root';
 import { createRoutesFromNavigation } from './utils/navigation';
 
-Vue.use(Router);
-
 export const NAVIGATION = {
   routes: [
     {
