@@ -1,6 +1,6 @@
 import { importTypes } from '@rancher/auto-import';
 import { IPlugin } from '@shell/core/types';
-import { NAVIGATION } from './router';
+import { NAVIGATION } from './router.js';
 import { flattenNavigation } from './utils/navigation';
 
 // Init the package
