@@ -1,0 +1,7 @@
+plugin/opni-0.1.0.umd.min.2.js
+plugin/opni-0.1.0.umd.min.2.js.map
+plugin/opni-0.1.0.umd.min.formatters.js
+plugin/opni-0.1.0.umd.min.formatters.js.map
+plugin/opni-0.1.0.umd.min.js
+plugin/opni-0.1.0.umd.min.js.map
+plugin/package.json
