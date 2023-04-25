@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { isEmpty } from 'lodash';
-import { Deployment, DeploymentResponse } from '../../layouts/models/Deployment';
+import { Deployment, DeploymentResponse } from '../../models/Deployment';
 
 export async function getDeployments(clusterId: string): Promise<Deployment[]> {
   const deployments = (await axios.get<{ items: DeploymentResponse[] }>(`opni-api/ModelTraining/workload_aggregation/${ clusterId }`)).data;

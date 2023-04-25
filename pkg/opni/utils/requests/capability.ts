@@ -1,4 +1,4 @@
-import { Capability, CapabilityStatuses } from '../../layouts/models/Capability';
+import { Capability, CapabilityStatuses } from '../../models/Capability';
 import { getClusters } from './management';
 
 export async function getCapabilities(type: keyof CapabilityStatuses, vue: any): Promise<Capability[]> {

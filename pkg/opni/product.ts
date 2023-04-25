@@ -43,6 +43,6 @@ export function init(plugin: any, store: any) {
     removable:           false,
     showClusterSwitcher: false,
     category:            'global',
-    to:                  { name: 'ai-chat' }
+    to:                  { name: 'opni' }
   });
 }
