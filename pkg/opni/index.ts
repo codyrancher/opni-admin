@@ -1,6 +1,7 @@
 import { importTypes } from '@rancher/auto-import';
 import { IPlugin } from '@shell/core/types';
-import Chat from './components/Chat/index.vue';
+import { NAVIGATION } from './router';
+import { flattenNavigation } from './utils/navigation';
 
 // Init the package
 export default function(plugin: IPlugin, context: any) {
@@ -14,10 +15,8 @@ export default function(plugin: IPlugin, context: any) {
   plugin.addProduct(require('./product'));
 
   if (!context.app.$config.isStandalone) {
-    plugin.addRoute({
-      name:      'ai-chat',
-      path:      '/ai-chat',
-      component: function(){}
-    });
+    const flatNavigation = flattenNavigation(NAVIGATION);
+
+    plugin.addRoutes(flatNavigation);
   }
 }
