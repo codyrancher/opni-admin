@@ -12,12 +12,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-04-25T19:04:04.775529262Z"
+    created: "2023-04-25T19:11:45.452806696Z"
     description: Opni admin panel which aids in the management of relevant resources
-    digest: 0d8a5c01499b882f720b72c658f6b586a78667617dbed6f9c445379890bc2f02
+    digest: 4803178e7d808d79e3af2fef14fa66e4439670d942b2da4b97c065e6629258c9
     name: opni
     type: application
     urls:
     - assets/opni/opni-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-25T19:04:04.774175051Z"
+generated: "2023-04-25T19:11:45.450775182Z"
