@@ -14,9 +14,9 @@ export default function(plugin: IPlugin, context: any) {
   // Load a product
   // plugin.addProduct(require('./product'));
 
-  // if (!context.app.$config.isStandalone) {
-  //   const flatNavigation = flattenNavigation(NAVIGATION);
+  if (!context.app.$config.isStandalone) {
+    const flatNavigation = flattenNavigation(NAVIGATION);
 
-  //   plugin.addRoutes(flatNavigation);
-  // }
+    plugin.addRoutes(flatNavigation);
+  }
 }
