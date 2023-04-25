@@ -16,7 +16,7 @@ export default function(plugin: IPlugin, context: any) {
 
   if (!context.app.$config.isStandalone) {
     const flatNavigation = flattenNavigation(NAVIGATION);
-
-    plugin.addRoutes(flatNavigation);
+    console.log(flatNavigation);
+    //plugin.addRoutes(flatNavigation);
   }
 }
